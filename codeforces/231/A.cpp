@@ -1,32 +1,20 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-void solve()
-{
-}
+
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    // freopen("pin.txt", "r", stdin);
-    // freopen("pout.txt", "w", stdout);
-    int n;
-    cin >> n;
+    int T;
+    cin >> T;
     int count = 0;
-    while (n--)
+    while (T--)
     {
-        int sum = 0;
-        for (int i = 0; i < 3; i++)
-        {
-            int temp;
-            cin >> temp;
-            sum += temp;
-        }
-        if (sum >= 2)
+        int l, m, n;
+        cin >> l >> m >> n;
+        if (l + m + n >= 2)
         {
             count++;
         }
     }
-
     cout << count << endl;
     return 0;
 }
