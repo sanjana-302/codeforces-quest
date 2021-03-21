@@ -1,4 +1,22 @@
 {
+  "CF110598153": {
+    "contest_id": 490,
+    "language": "GNU C++17",
+    "path": "codeforces\\490\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Team Olympiad",
+    "problem_url": "https://codeforces.com/contest/490/problem/A",
+    "submission_id": "CF110598153",
+    "submission_url": "https://codeforces.com/contest/490/submission/110598153",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Mar/21/2021 13:59"
+  },
   "CF110600356": {
     "contest_id": 686,
     "language": "GNU C++17",
