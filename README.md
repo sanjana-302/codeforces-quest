@@ -12,4 +12,5 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1 | [A - Counterexample ](https://codeforces.com/contest/483/problem/A) | [GNU C++17](./codeforces/483/A.cpp) | `brute force` `implementation` `math` `number theory` `*1100` | Mar/27/2021 22:32 | 
+2 | [A - Counterexample ](https://codeforces.com/contest/483/problem/A) | [GNU C++17](./codeforces/483/A.cpp) | `brute force` `implementation` `math` `number theory` `*1100` | Mar/27/2021 22:32 | 
+1 | [A - Panoramix's Prediction](https://codeforces.com/contest/80/problem/A) | [GNU C++17](./codeforces/80/A.cpp) | `brute force` `*800` | Mar/27/2021 20:55 | 
