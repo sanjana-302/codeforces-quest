@@ -50,10 +50,10 @@ int main()
         check.erase(q);
         check.erase(abs(7 - p));
         check.erase(abs(7 - q));
-        int k = 0;
+        int ok = 0;
         if (check.find(top) != check.end() && check.find(abs(top - 7)) != check.end())
         {
-            k++;
+            ok++;
         }
         else
         {
