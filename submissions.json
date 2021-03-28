@@ -912,6 +912,22 @@
     ],
     "timestamp": "Mar/27/2021 22:32"
   },
+  "CF111263371": {
+    "contest_id": 365,
+    "language": "GNU C++17",
+    "path": "codeforces\\365\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Good Number",
+    "problem_url": "https://codeforces.com/contest/365/problem/A",
+    "submission_id": "CF111263371",
+    "submission_url": "https://codeforces.com/contest/365/submission/111263371",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/28/2021 13:21"
+  },
   "CF111264260": {
     "contest_id": 365,
     "language": "GNU C++17",

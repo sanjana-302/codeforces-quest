@@ -17,10 +17,10 @@ int main()
         vector<int> check(p + 1, 0);
         long long a;
         cin >> a;
-        // if (a == 0)
-        // {
-        //     check[0] = 1;
-        // }
+        if (a == 0)
+        {
+            check[0] = 1;
+        }
         while (a)
         {
             if (a % 10 <= p)
