@@ -34,6 +34,5 @@ int main()
         }
     }
     cout << ans << endl;
-    bool var = true;
     return 0;
 }
