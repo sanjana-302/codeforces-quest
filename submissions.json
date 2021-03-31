@@ -912,6 +912,23 @@
     ],
     "timestamp": "Mar/27/2021 22:32"
   },
+  "CF111564479": {
+    "contest_id": 382,
+    "language": "GNU C++17",
+    "path": "codeforces\\382\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Ksenia and Pan Scales",
+    "problem_url": "https://codeforces.com/contest/382/problem/A",
+    "submission_id": "CF111564479",
+    "submission_url": "https://codeforces.com/contest/382/submission/111564479",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/31/2021 19:20"
+  },
   "CF111566323": {
     "contest_id": 699,
     "language": "GNU C++17",
