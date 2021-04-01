@@ -1079,6 +1079,23 @@
     ],
     "timestamp": "Mar/31/2021 20:13"
   },
+  "CF111635924": {
+    "contest_id": 296,
+    "language": "GNU C++17",
+    "path": "codeforces\\296\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Yaroslav and Permutations",
+    "problem_url": "https://codeforces.com/contest/296/problem/A",
+    "submission_id": "CF111635924",
+    "submission_url": "https://codeforces.com/contest/296/submission/111635924",
+    "tags": [
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Apr/01/2021 16:34"
+  },
   "CF111639045": {
     "contest_id": 298,
     "language": "GNU C++17",
