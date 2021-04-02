@@ -1,27 +1,48 @@
 #include <bits/stdc++.h>
 using namespace std;
-int a[1001];
 void solve()
 {
     int n;
     cin >> n;
-    for (int i = 0; i < n; i++)
+    vector<int> a(n + 2);
+    a[0] = 100000;
+    a[n + 1] = 100000;
+    //int x;
+    for (int i = 1; i < n + 1; i++)
     {
-        cin >> a[i];
+        int tmp;
+        cin >> tmp;
+        a[i] = tmp;
     }
-    int ans = 0;
-    for (int i = 0; i < n; i++)
+    int max = -1;
+    for (int i = 1; i < n + 1; i++)
     {
-        int cur = 1;
-        for (int j = i + 1; j < n && a[j] <= a[j - 1]; j++)
-            cur++;
-
-        for (int j = i - 1; j >= 0 && a[j] <= a[j + 1]; j--)
-            cur++;
-
-        ans = max(ans, cur);
+        int left = 1;
+        int right = 1;
+        for (int j = i; j < n + 1; j++)
+        {
+            if (a[j + 1] > a[j])
+            {
+                right += j - i;
+                break;
+            }
+        }
+        for (int j = i; j >= 1; j--)
+        {
+            if (a[j - 1] > a[j])
+            {
+                left += i - j;
+                break;
+            }
+        }
+        if (left + right > max)
+        {
+            max = left + right - 1;
+        }
+        //cout << right << endl;
     }
-    cout << ans << endl;
+
+    cout << max << endl;
 }
 int main()
 {
